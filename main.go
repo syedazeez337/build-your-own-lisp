@@ -27,7 +27,7 @@ func main() {
 		// fmt.Print("lisp>>")
 		// message, err := input.ReadString('\n')
 
-		input, err := line.Prompt("lisp>>")
+		input, err := line.Prompt("aze>>")
 		if err != nil {
 			if err == liner.ErrPromptAborted {
 				fmt.Println("\nAborted...")
